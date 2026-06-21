@@ -1,1 +1,0 @@
-import{a as o,d as r,J as i,K as d,M as f}from"./index-CE5J0Hog.js";function Z(t){const a=o(e=>e.filters),n=o(e=>e.searchQuery),u=o(e=>e.sortMode),s=r.useMemo(()=>i(t,a,n),[a,n,t]),c=r.useMemo(()=>d(s,u),[s,u]),m=r.useMemo(()=>f(s),[s]);return{filteredZones:s,sortedZones:c,summary:m}}export{Z as u};
